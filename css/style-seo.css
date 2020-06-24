@@ -1,0 +1,68 @@
+body,
+button,
+input,
+textarea {
+	font-family: 'SegoeUI', sans-serif;
+	font-weight: 200;
+}
+
+
+
+.seo-content__l {
+	max-width: 430px;
+}
+.seo-content h1{
+	margin-bottom: 10px;
+	padding: 1px 10px 1px 6px;
+	color: #000;
+	font-family: 'PlumbBlack', sans-serif;
+	font-size: 40px;
+	line-height: 1.4;
+	text-transform: uppercase;
+}
+.seo-content h1 span {
+	/* margin-right: 70px; */
+	margin-left: -6px;
+	padding: 1px 10px 1px 6px;
+	background: #f8bf12;
+	border-radius: 4px;
+	line-height: 1.4;
+}
+.seo-content .desc {
+	font-size: 21px;
+	line-height: 1.4;
+}
+.seo-content .desc__main {
+	margin-bottom: 25px;
+	font-size: 17px;
+	line-height: 1.3;
+}
+.seo-content .desc__main span {
+	font-weight: 600;
+}
+.seo-content__l .line {
+	background-image: url('../images/line.png');
+	display: inline-block;
+	height: 11px;
+	margin: 27px 0;
+	width: 71px;
+}
+.seo-content__l .btn-seo {
+	max-width: 375px;
+	font-family: 'PlumbBlack', sans-serif;
+	color: #000;
+	font-size: 16px;
+	text-transform: none;
+}
+.man__seo {
+	color: #333333;
+}
+.man__seo .man__title {
+	font-family: 'PlumbBlack', sans-serif;
+	font-size: 19px;
+}
+.man__list li {
+	font-size: 17px;
+	font-weight: 300;
+
+}
