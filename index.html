@@ -74,14 +74,151 @@
 		<div class="content">
 			<h3>Рассчитайте стоимость самостоятельно</h3>
 			<hr class="hr">
-			<p class="block-desc">Стоимость SEO</p>
+			<p class="block-desc calc__block-desc">Стоимость SEO</p>
 			<div class="calc__wrap">
-				<div class="step__inner">
-					<div class="calc-ster">
-						<div class="progress-bar"></div>
-						<div class="steps"></div>
-						<h4>Выберите в каком регионе нужно продвижение</h4>
+				<div class="step__items">
+					<div class="progress-bar">
+						<div class="p-bar__item"></div>
+						<div class="p-bar__item"></div>
+						<div class="p-bar__item"></div>
+						<div class="p-bar__item"></div>
+						<div class="p-bar__item"></div>
 					</div>
+					<div class="steps_bar">
+						Вопрос 1 из 5
+					</div>
+					<div class="step__item current-step" id="step-1">
+						<h4>Выберите в каком регионе нужно продвижение</h4>
+						<div class="check__items">
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-1" id="" value="Санкт-Петербург" checked="true">
+									<span>Санкт-Петербург</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-1" id="" value="Москва">
+									<span>Москва</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-1" id="" value="Миллионник">
+									<span>Миллионник</span>
+								</div>
+							</div>
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-1" id="" value="3 города">
+									<span>3 города</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-1" id="" value="5 городов">
+									<span>5 городов</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-1" id="" value="Россия">
+									<span>Россия</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="step__item" id="step-2" style="display: none;">
+						<h4>Какой у Вас сайт</h4>
+						<div class="check__items">
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-2" id="" value="Лэндинг">
+									<span>Лэндинг</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-2" id="" value="Интернет-магазин">
+									<span>Интернет-магазин</span>
+								</div>
+							</div>
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-2" id="" value="Корпоративный">
+									<span>Корпоративный</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-2" id="" value="Сложный проект">
+									<span>Сложный проект</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="step__item" id="step-3" style="display: none;">
+						<h4>Какая тематика Вашего сайта</h4>
+						<div class="check__items">
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-3" id="" value="Ремонт">
+									<span>Ремонт</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-3" id="" value="Строительство">
+									<span>Строительство</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-3" id="" value="Недвижимость">
+									<span>Недвижимость</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-3" id="" value="Услуги для бизнеса">
+									<span>Услуги для бизнеса</span>
+								</div>
+							</div>
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-3" id="" value="Услуги населению">
+									<span>Услуги населению</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-3" id="" value="Медицина">
+									<span>Медицина</span>
+								</div>
+								<div class="check__item">
+									<input type="radio" name="step-3" id="" value="Другое">
+									<span>Другое</span>
+								</div>
+								<input class="input__item" type="text" name="step-3" id="" value="">
+							</div>
+						</div>
+					</div>
+					<div class="step__item" id="step-4" style="display: none;">
+						<h4>Доработки на сайте будут выполняться</h4>
+						<div class="check__items">
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-4" id="" value="Смоими силами">
+									<span>Смоими силами</span>
+								</div>
+							</div>
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-4" id="" value="Силами Ваших Специалистов">
+									<span>Силами Ваших Специалистов</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="step__item" id="step-5" style="display: none;">
+						<h4>Какое продвижение Вас интересует</h4>
+						<div class="check__items">
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-5" id="" value="По позициям">
+									<span>По позициям</span><span class="qus" id="qus">(?)</span>
+								</div>
+							</div>
+							<div class="clm">
+								<div class="check__item">
+									<input type="radio" name="step-5" id="" value="По трафику">
+									<span>По трафику</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button>Следующий вопрос</button>
+					<button>Назад</button>
 				</div>
 				<div class="master__inner">
 					<div class="master__calc">
