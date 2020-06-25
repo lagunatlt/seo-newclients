@@ -892,7 +892,7 @@ section {
 #qus::before {
 	position: absolute;
 	right: 4px;
-	top: 3px;
+	top: 5px;
 	content: '';
 	width: 21px;
 	height: 20px;
