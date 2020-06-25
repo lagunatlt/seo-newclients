@@ -587,3 +587,38 @@ section {
 		margin-top: 574px;
 	}
 }
+
+
+/* --------section calc----------- */
+.calc-content {
+	background-color: #F6F6F6;
+
+	border-top: 1px solid black;
+}
+
+.calc__wrap{
+	height: 470px;
+}
+
+
+.master__inner {
+	max-width: 372px;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 27px 35px;
+}
+.master__calc {
+  display: flex;
+  align-items: center;
+}
+.master__img {
+	width: 84px;
+	height: 84px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.master__img img{
+	width: 100%;
+	height: auto;
+}
