@@ -620,9 +620,16 @@ section {
   max-width: 770px;
   background-color: #fff;
   border-radius: 8px;
-  padding: 27px 35px;
+  padding: 34px 70px;
   box-sizing: border-box;
   width: 100%;
+}
+.step-active {
+	display: block;
+}
+.step-done,
+.step-current{
+	background-color: #f8bf12;
 }
 .check__items {
   display: flex;
