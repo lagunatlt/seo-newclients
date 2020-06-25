@@ -51,5 +51,32 @@ function nextStep(n) {
 
 	} 
 
-
 }
+let step3 = document.getElementById('step-3')
+let step3Other = document.getElementById('step-3-other');
+let step3Text = document.getElementById('step-3-text');
+step3.addEventListener('click', function () {
+	if (step3Other.checked) {
+		step3Text.removeAttribute('disabled')
+		step3Text.classList.add('check__item')
+	} else {
+		step3Text.setAttribute('disabled', 'true')
+		step3Text.classList.remove('check__item')
+	}
+})
+
+let stepItems = document.getElementById('step-items')
+let qus = document.getElementById('qus')
+let qusText = document.getElementById('qus-text')
+qus.addEventListener('click', function() {
+	qusText.classList.add('qus-show')
+})
+// stepItems.addEventListener('click', function (e) {
+// 	if (e.target.id != 'qus-text') {
+// 		console.log('hi')
+// 		qusText.classList.remove('qus-show')
+// 	} else {
+// 		qusText.classList.add('qus-show')
+// 	}
+// })
+// step5.classList.contains
